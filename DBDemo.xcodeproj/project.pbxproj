@@ -16,6 +16,8 @@
 		A454E9CB268036F500D697E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A454E9CA268036F500D697E0 /* main.m */; };
 		A454E9D5268036F600D697E0 /* DBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A454E9D4268036F600D697E0 /* DBDemoTests.m */; };
 		A454E9E0268036F600D697E0 /* DBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A454E9DF268036F600D697E0 /* DBDemoUITests.m */; };
+		A454E9F3268061CA00D697E0 /* DDSoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A454E9F2268061CA00D697E0 /* DDSoundWaveView.m */; };
+		A454E9F92680621300D697E0 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A454E9F72680621200D697E0 /* UIView+LayoutMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		A454E9DB268036F600D697E0 /* DBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A454E9DF268036F600D697E0 /* DBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBDemoUITests.m; sourceTree = "<group>"; };
 		A454E9E1268036F600D697E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A454E9F1268061CA00D697E0 /* DDSoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSoundWaveView.h; sourceTree = "<group>"; };
+		A454E9F2268061CA00D697E0 /* DDSoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSoundWaveView.m; sourceTree = "<group>"; };
+		A454E9F72680621200D697E0 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		A454E9F82680621200D697E0 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		A454E9B7268036F500D697E0 /* DBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A454E9F0268061CA00D697E0 /* DDSoundWave */,
 				A454E9B8268036F500D697E0 /* AppDelegate.h */,
 				A454E9B9268036F500D697E0 /* AppDelegate.m */,
 				A454E9BB268036F500D697E0 /* SceneDelegate.h */,
@@ -135,6 +142,17 @@
 				A454E9E1268036F600D697E0 /* Info.plist */,
 			);
 			path = DBDemoUITests;
+			sourceTree = "<group>";
+		};
+		A454E9F0268061CA00D697E0 /* DDSoundWave */ = {
+			isa = PBXGroup;
+			children = (
+				A454E9F1268061CA00D697E0 /* DDSoundWaveView.h */,
+				A454E9F2268061CA00D697E0 /* DDSoundWaveView.m */,
+				A454E9F82680621200D697E0 /* UIView+LayoutMethods.h */,
+				A454E9F72680621200D697E0 /* UIView+LayoutMethods.m */,
+			);
+			path = DDSoundWave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A454E9C0268036F500D697E0 /* ViewController.m in Sources */,
+				A454E9F3268061CA00D697E0 /* DDSoundWaveView.m in Sources */,
 				A454E9BA268036F500D697E0 /* AppDelegate.m in Sources */,
+				A454E9F92680621300D697E0 /* UIView+LayoutMethods.m in Sources */,
 				A454E9CB268036F500D697E0 /* main.m in Sources */,
 				A454E9BD268036F500D697E0 /* SceneDelegate.m in Sources */,
 			);
