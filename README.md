@@ -1,5 +1,4 @@
 # DBDemo
-DBDemo
 
 测量分贝的demo
 
