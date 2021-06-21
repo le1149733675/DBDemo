@@ -107,7 +107,6 @@
     /* level 范围[0 ~ 1], 转为[0 ~120] 之间 */
     dispatch_async(dispatch_get_main_queue(), ^{
         
-        NSLog(@"当前分贝===%.2f",level*120);
         [self.showDBLabel setText:[NSString stringWithFormat:@"当前分贝:%.2f", level*120]];
     });
 }
@@ -115,8 +114,6 @@
 - (void)recorderVoiceChange {
     
     double lowPassResults = pow(10, (0.05 * [self.recorder peakPowerForChannel:0]));
-    NSLog(@"波浪显示数据*120===%f",lowPassResults*120);
-    NSLog(@"波浪显示数据===%f",lowPassResults);
     [self.waveView displayWave:lowPassResults];
 }
 
